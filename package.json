@@ -1,0 +1,35 @@
+{
+  "name": "ss-conf-for-surge",
+  "version": "1.0.0",
+  "description": "generating ss configuration files for Surge",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node node_modules/babel-cli/bin/babel.js src --out-dir lib",
+    "start": "node node_modules/babel-cli/bin/babel-node.js lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yakiang/ss-conf-for-surge.git"
+  },
+  "keywords": [
+    "surge",
+    "ss"
+  ],
+  "author": "yakiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yakiang/ss-conf-for-surge/issues"
+  },
+  "homepage": "https://github.com/yakiang/ss-conf-for-surge#readme",
+  "dependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.4.5",
+    "babel-plugin-transform-es2015-destructuring": "^6.4.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.4.5",
+    "babel-plugin-transform-es2015-parameters": "^6.4.5",
+    "babel-plugin-transform-es2015-spread": "^6.4.0",
+    "babel-plugin-transform-strict-mode": "^6.3.13",
+    "request-promise": "^2.0.0",
+    "underscore": "^1.8.3"
+  }
+}
