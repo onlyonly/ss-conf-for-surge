@@ -4,7 +4,7 @@
   "description": "generating ss configuration files for Surge",
   "main": "lib/index.js",
   "scripts": {
-    "build": "node node_modules/babel-cli/bin/babel.js src --out-dir lib",
+    "build": "node node_modules/babel-cli/bin/babel.js src --out-dir lib -q",
     "start": "node node_modules/babel-cli/bin/babel-node.js lib/index.js"
   },
   "repository": {
