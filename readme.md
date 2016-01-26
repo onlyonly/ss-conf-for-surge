@@ -3,7 +3,7 @@ Inspired by [ss.conf-for-surge](https://github.com/R0uter/ss.conf-for-surge), wr
 
 ### run
 
-    npm run build && npm start
+    mkdir -p conf && npm run build && npm start
 
 
 ### todo
