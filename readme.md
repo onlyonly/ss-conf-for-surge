@@ -2,14 +2,18 @@ Inspired by [ss.conf-for-surge](https://github.com/R0uter/ss.conf-for-surge), wr
 
 ### install
 
-clone this repository and run `npm install`
+Clone this repository and run `npm install`.
+
+BTW, my Node version is `5.4.0`.
 
 
 ### run
 
-fill up your ss info in `src/config.js`, multiple servers are supported. Then save and run:
+Fill up your ss info in `src/config.js`, multiple servers are supported. Then save and run:
 
     mkdir -p conf && npm run build && npm start
+
+Configuration files are generated inside `./conf/`. Just drag them into your Surge App via iTunes.
 
 
 ### todo
